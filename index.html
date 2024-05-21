@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    
+</head>
+<body>
+  <section id="inicio">
+    <div class="contenido">
+        <header>
+            <div class="contenido-header">
+                <h1>/(̶◉͛‿◉̶)/</h1>
+                <nav id="nav" class="">
+                    <ul id="links">
+                        <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                        <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                        <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                        <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                        <li><a href="#formulario" onclick="seleccionar(this)">CONTACTO</a></li>
+                    </ul>
+                </nav>
+
+                <div id="icono-nav" onclick="responsiveMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+
+                <div class="redes">
+                    <a href="https://www.youtube.com/watch?v=AfIOBLr1NDU"><i class="fa-brands fa-youtube fa-2xl" style="color: #d11531;"></i></a>
+                    <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook-f fa-2xl" style="color: #50aef7;"></i></a>
+                    <a href="https://www.linkedin.com/in/ricardo-ojeda-77a733282/"><i class="fa-brands fa-linkedin-in fa-2xl" style="color: #3c00f0;"></i></a>
+                </div>
+            </div>
+        </header>
+        <div class="presentacion">
+            <p class="bienvenida">Bienvenidos</p>
+            <h2>Soy <span>Ricardo Ojeda</span>, Estudiante de Ingenieria en Informatica</h2>
+            <p class="descripcion">"Doy clases los Jueves, no cobro Mucho" </p>
+            <a href="#portafolio">Ir a Portafolio</a>
+        </div>
+    </div>
+</section>
+<section id="carrousel">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/img/profesionalismo.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>PROFESIONALISMO</h1>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/backend.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>VARIOS LENGUAJES</h1>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/img/responabilidad.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>RESPONSABILIDAD</h1>
+          <p></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</section>
+<SECTION id="sobremi">
+  <div class="contenedor-foto">
+    <img src="assets/img/uisuario.png" alt="">
+  </div>
+  <div class="sobremi">
+      <p class="titulo-seccion">Sobre Mi</p>
+      <h2>Hola, Soy <span>Ricardo Ojeda</span> </h2>
+      <h3>Estudiante</h3>
+      <H3>
+        ¡Hola! Soy Ricardo, tengo 22 años y actualmente soy estudiante en el Instituto Profesional DUOC UC, sede Puerto Montt. Estoy cursando mi segundo año de carrera y me encuentro entusiasmado por las oportunidades que esta formación me está brindando para desarrollarme profesionalmente.
+        
+        A lo largo de mi carrera académica, he adquirido experiencia en varios lenguajes de programación, incluyendo Java, Python y SQL.</H3>
+  </div>
+
+</SECTION>
+
+
+ <section id="servicios">
+      <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+      <div class="fila">
+          <div class="servicio">
+              <span class="icono"> <i class="fa-solid fa-code"></i></span>
+              <h4>Diseño de Sitios Web</h4>
+              <hr>
+              <ul class="servicios-tag">
+                  <li>Web</li>
+                  <li>Design</li>
+              </ul>
+              <p>He hecho algunos diseños de pagina</p>
+          </div>
+          <div class="servicio">
+              <span class="icono"><i class="fa-brands fa-python" style="color: #FFD43B;"></i></i></span>
+              <h4>Python</h4>
+              <hr>
+              <ul class="servicios-tag">
+                  <li>Listas</li>
+                  <li>Ventas</li>
+              </ul>
+              <p>He aprendido a hacer sistemas de ventas e inventario en Python</p>
+          </div>
+          <div class="servicio">
+              <span class="icono"><i class="fa-solid fa-database fa-lg" style="color: #63E6BE;"></i></i></span>
+              <h4>SQL</h4>
+              <hr>
+              <ul class="servicios-tag">
+                  <li>Modelamiento</li>
+                  <li>Consultas</li>
+                  <li>Programación</li>
+              </ul>
+              <p>A lo largo de lo que estudiado he aprendido bastante bien lo que el lenguaje de base datos</p>
+          </div>
+      
+      </div>
+  </section>
+
+
+  <div class="contenedor-skills" id="skills">
+      <h3>HABILIDADES </h3>
+      <div class="skill">
+          <div class="info">
+              <p> <span class="lista"> </span>Html & Css</p>
+              <span class="porcentaje">55%</span>
+          </div>
+
+          <div class="barra">
+              <div class="" id="html"></div>
+          </div>
+      </div>
+      <div class="skill">
+          <div class="info">
+              <p> <span class="lista"> </span>Javascript</p>
+              <span class="porcentaje">40%</span>
+          </div>
+
+          <div class="barra">
+              <div class="" id="js"></div>
+          </div>
+      </div>
+      <div class="skill">
+          <div class="info">
+              <p> <span class="lista"> </span>Bases de Datos</p>
+              <span class="porcentaje">60%</span>
+          </div>
+
+          <div class="barra">
+              <div class="" id="bd"></div>
+          </div>
+      </div>
+      <div class="skill">
+          <div class="info">
+              <p> <span class="lista"> </span>Photoshop</p>
+              <span class="porcentaje">0%</span>
+          </div>
+
+          <div class="barra">
+              <div class="" id="ps"></div>
+          </div>
+      </div>
+  </div>
+
+  <section id="portafolio">
+      <h3 class="titulo-seccion">Mis Proyectos</h3>
+      <div class="fila">
+          <div class="proyecto">
+              <div class="overlay"></div>
+              <img src="assets/img/Captura.PNG" alt="">
+              <div class="info">
+                  <h4>CAOSNEWS</h4>
+                  <p><a href="https://elcardog0d.github.io/Ricardo_OJeda_Ev1/"></a>Diseño Web</p>
+              </div>
+          </div>
+          
+      </div>
+
+      </div>
+  </section>
+
+<section id="formulario"> 
+  <div>
+    <section class="form-register">
+        <h4>Formulario De contacto</h4>
+        <p>No dudes en Contactarme</p>
+        <form action="https://formsubmit.co/ferrusder@gmail.com" method="POST">
+            <input class="controls" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre y Apellido">
+            <input class="controls" type="text" name="Numero" id="Numero" placeholder="Ingrese su Numero de contacto">
+            <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Deje su la descripcion de lo que pagina que quiere y em breve contactare con usted" id="floatingTextarea2Disabled" style="height: 100px" enabled></textarea>
+                <label for="floatingTextarea2Disabled">Deje su peticion aquì. </label>
+            </div>
+            <p>Estoy de acuerdo con <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs">Terminos y Condiciones</a></p>
+            <input class="botons" type="submit" onclick="return enviarFormulario()" value="enviar">
+            <input type="hidden" name="_next" value="false">
+            <input type="hidden" name="_capctcha" value="false">
+            <input type="hidden" name="_subject" value="Formulario de contacto">
+      </form>
+      <div id="error">
+
+      </div>
+  </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="assets/css/script.js"></script>
+</body>
+</html>
